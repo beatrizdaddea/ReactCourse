@@ -1,7 +1,7 @@
 // rotas > livro.js
 
 const { Router } = require("express")
-const { getLivros } = require("../controladores/livro")
+const { getLivros } = require("../controllers/livro")
 
 const router = Router()
 
